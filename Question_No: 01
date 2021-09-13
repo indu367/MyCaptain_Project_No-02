@@ -1,6 +1,13 @@
-start=int(input("Enter starting range: "))
-end=int(input("Enter ending range: "))
-print("The positive numbers in a given range ",start," and ",end," is: ")
-for i in range(start,end+1):
-    if(i>=0):
-        print(i)
+n = int(input("Enter the number of elements you'd like to enter in a list: "))
+l = list()
+for i in range(n):
+ x = int(input("Enter the element: "))
+ l.append(x)
+print("Input: ",l)
+pl = list()
+for i in l:
+ if i > 0:
+   pl.append(i)
+print("Output: ",pl)
+
+
