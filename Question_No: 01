@@ -1,0 +1,6 @@
+start=int(input("Enter starting range: "))
+end=int(input("Enter ending range: "))
+print("The positive numbers in a given range ",start," and ",end," is: ")
+for i in range(start,end+1):
+    if(i>=0):
+        print(i)
